@@ -1,4 +1,7 @@
 # 1DCNN_rough_surface_profile
-The data and source code of paper: Ultrasonic reconstruction of rough surface morphology based on deep learning
-The datasets can be found in the following share link: 
+The data and source code of paper: Deep learning based ultrasonic reconstruction of rough surface
+morphology
+
+The datasets for training and testing the neural network can be found in the following share link: 
 https://hkustconnect-my.sharepoint.com/:f:/g/personal/zwangfd_connect_ust_hk/EtXEKuk7jPJIi-X5s3y2BdcBaP2OkRec0a64in10oGlTQA?e=6uVUjS
+
