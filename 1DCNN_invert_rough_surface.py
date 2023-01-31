@@ -24,7 +24,7 @@ parser.add_argument('--sim_Test_path',type=str,default=r'./database/simulated_te
     help='simulated testing datasets path')    
 parser.add_argument('--exp_path',type=str,default=r'./database/experiment_datasets.mat',\
     help='Experiment datasets path')
-parser.add_argument('--device',type=str,default='cuda:1',help='device for training')
+parser.add_argument('--device',type=str,default='cuda:0',help='device for training')
 parser.add_argument('--sig_length',type=int,default=250,help='the sequence length of signal')
 parser.add_argument('--sur_length',type=int,default=200,help='the sequence length of surface')
 parser.add_argument('--num_of_elements',type=int,default=32,help='number of array elements')
