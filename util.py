@@ -105,7 +105,7 @@ def plot_and_save_test_results(exp_test_dl,model,title,savepath,noe,re_normalize
             #print(y.shape)
         plt.figure()
         for pp in range(plot_num):
-            plt.subplot(2,plot_num/2,pp+1)
+            plt.subplot(2,int(plot_num/2),pp+1)
             plt.cla()
             plt.plot(expexp[pp].cpu().data.numpy(), label='exp')
             #plt.plot(expsim[pp].cpu().data.numpy(), label='sim')
